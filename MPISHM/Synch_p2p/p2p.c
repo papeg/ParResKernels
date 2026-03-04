@@ -325,7 +325,7 @@ int main(int argc, char ** argv)
 #else
     printf("Solution validates\n");
 #endif
-    printf("Rate (MFlops/s): %lf Avg time (s): %lf\n",
+    printf("Rate (MFlops/s): %lf Avg time (s): %.9lf\n",
            1.0E-06 * 2 * (double)((m-1)*(double)(n-1))/avgtime, avgtime);
   }
 
