@@ -388,6 +388,7 @@ MPI1/Stencil/stencil
 MPI1/Synch_global/global
 MPI1/Synch_p2p/p2p
 MPI1/Synch_p2p_float/p2p
+MPI1/Synch_p2p_float/p2p_iteration
 MPI1/Synch_p2p_int/p2p
 MPI1/Synch_p2p_long/p2p
 MPI1/Transpose/transpose

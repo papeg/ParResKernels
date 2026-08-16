@@ -42,3 +42,8 @@ PROGRAM     = p2p
 OBJS        = $(PROGRAM).o $(COMOBJS)
 
 include ../../common/make.common
+
+ITER_OBJS = p2p_iteration.o $(COMOBJS)
+
+p2p_iteration: $(ITER_OBJS)
+	$(CLINKER) -o $@ $(LIBPATHS) $(CFLAGS) $(ITER_OBJS) $(EXTOBJS) $(LIBS)
